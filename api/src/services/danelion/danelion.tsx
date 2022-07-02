@@ -7,6 +7,6 @@ export const getUtxos = async ({ address }) => {
   const json = await response.json()
 
   return {
-    value
+    
   }
 }
