@@ -4,6 +4,6 @@ export const schema = gql`
   }
 
   type Query {
-    getWeather(address: String!): Weather! @skipAuth
+    getSome(address: String!): Cardano! @skipAuth
   }
 `

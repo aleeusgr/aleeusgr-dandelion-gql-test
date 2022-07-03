@@ -1,4 +1,4 @@
-export const getWeather = ({ address }) => {
+export const getSome = ({ address }) => {
   return {
     address,
   }
